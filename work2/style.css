@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;;
+    min-height: 100vh;
+    /* text-align: center; */
+    align-items: center;
+    overflow-y: hidden;
+
+    
+}
+.parent> div{
+    background-color: chartreuse;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    
+}
+
+.child1{
+    flex: 1;
+    align-self: self-start;
+}
+.child2{
+    flex: 2;
+}
+.child3{
+    flex: 3;
+}
+.child4{
+    flex: 2;
+}
+.child5{
+    flex: 1;
+    align-self: self-end;
+}
