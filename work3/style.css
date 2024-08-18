@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 /* Navigation Bar */
@@ -13,6 +13,8 @@
     color: black;
     font-size: 20px;
     background-color: #fff;
+    position: sticky;
+    top: 0;
 }
 
 .right {
@@ -27,22 +29,23 @@
     cursor: pointer;
 }
 
-/* Wrapper for the main content */
+.right g:hover{
+    color: red;
+}
+/* ____________________________part1____________________________________ */
+
+
 .content-wrapper {
     display: flex;
-    justify-content: space-between;
     padding: 20px;
     gap: 20px;
 }
 
 /* Left side: Contains the image and container2 */
 .left-side {
-    display: flex;
-    flex-direction: column;
-    width: 60%; /* Adjusts the width of the left side */
+    width: 60%;
 }
 
-/* Image styling */
 .image {
     width: 100%;
 }
@@ -54,21 +57,15 @@
     border-radius: 8px;
 }
 
-/* Bottom container placed in the gap below the image */
-/* .container2 {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-} */
 .container2 {
     margin-top: 20px;
     padding: 20px;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 /* Content inside container2 */
@@ -81,35 +78,36 @@
     justify-content: space-between;
     align-items: center;
 }
-button{
+
+button {
     background-color: rgba(209, 13, 55, 0.856);
     margin: 10px;
+    margin-bottom: 20px;
     border: 1px solid;
-    color: whitesmoke;
-    border-radius: 10px;
-    padding: 7px 15px;
+    color: black;
+    /* border-radius: 20px; */
+    padding: 10px 15px;
 }
-
-
-
-
-
-
-
+button:hover{
+    background-color: green;
+}
 /* Right side: Content container */
 .container1 {
-    width: 40%; /* Adjusts the width of the right side */
+    width: 40%;
     padding: 20px;
-    background-color: rgb(9, 9, 46);
+    background-color: rgb(1, 1, 18);
     color: aliceblue;
     border-radius: 8px;
+    margin-left: 20px;
 }
 
-h2, h3 {
+h2 {
     color: rgba(169, 169, 63, 0.9);
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
-
+h3{
+    margin-bottom: 30px;
+}
 p {
     margin-bottom: 20px;
     line-height: 1.6;
@@ -118,4 +116,32 @@ p {
 hr {
     border: 0.5px solid #ccc;
     margin-bottom: 20px;
+}
+/*___________________ part2_______________________________ */
+
+.container3 {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.c3cont1, .c3cont2, .c3cont3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.c3cont1 img, .c3cont2 img, .c3cont3 img {
+    object-fit: cover;
+    height: 20vh;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.container3 h1 {
+    color: red;
 }
