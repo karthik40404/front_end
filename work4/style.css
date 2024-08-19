@@ -1,0 +1,131 @@
+ *{
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-color: rgb(175, 211, 197);
+    
+}
+.main{
+    max-width: 500px;
+    margin-left:500px;
+    margin-top: 100px;
+    padding:20px;
+    min-height: 500px;
+    background-color: aliceblue;
+    border-radius: 2%;
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.names {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.fn, .ln {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.fn label, .ln label {
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.email > .e {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px; /* Add some space between the label and input */
+}
+
+.query {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: red;
+}
+.q .c1{
+    flex: 1;
+}
+.q .c2{
+    flex: 1;
+}
+
+.query p {
+    margin-bottom: 10px;
+    background-color: yellow;
+}
+
+.q {
+    display: flex;
+    flex: 1;
+    /* flex-direction: column; */
+    gap: 60px;
+}
+
+.query > .q{
+    width: 100%;
+    background-color: blue;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px; /* Add some space between the label and input */
+    /* min-height: 100px; */
+}
+
+.q label{
+    /* display: flex; */
+    border-style: solid;
+    background-color: green;
+    justify-content: space-between;   
+}
+
+
+
+.messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.messages label {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.messages > .m {
+    min-height: 100px;
+    /* resize: vertical; */
+    border-radius: 4px;
+}
+
+.consent{
+    margin-top: 25px;
+}
+
+
+button{
+    margin-top: 25px;
+    min-width: 500px;
+    min-height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: green;
+} 
+

@@ -155,10 +155,12 @@ hr {
     flex: 1;
     object-fit: fill;
     /* background-color: green; */
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
     padding: 20px;
+    /* padding-right: 100px; */
+    margin-right:100px;
     /* margin-bottom: 50px; */
 }
 
