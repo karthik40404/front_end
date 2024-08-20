@@ -46,7 +46,7 @@ input[type="text"] {
 .email {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    /* margin-bottom: 0px; */
 }
 
 .email > .e {
@@ -54,50 +54,47 @@ input[type="text"] {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-top: 5px; /* Add some space between the label and input */
+    margin-top: 5px; 
 }
 
 .query {
+    margin-top: 5px;
     display: flex;
-    margin-bottom: 20px;
-    background-color: red;
-}
-.q .c1{
-    flex: 1;
-}
-.q .c2{
-    flex: 1;
+    flex-direction: column;
+    /* background-color: red; */
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .query p {
-    margin-bottom: 10px;
-    background-color: yellow;
+    margin-top: 0;
+    margin-left: 0;
+    margin: 5px;
+    /* padding: 10px 0; */
 }
 
 .q {
     display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.q label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
     flex: 1;
-    /* flex-direction: column; */
-    gap: 60px;
 }
 
-.query > .q{
-    width: 100%;
-    background-color: blue;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 5px; /* Add some space between the label and input */
-    /* min-height: 100px; */
+.c1, .c2 {
+    margin-top: 0;
+    margin-right: 10px;
 }
-
-.q label{
-    /* display: flex; */
-    border-style: solid;
-    background-color: green;
-    justify-content: space-between;   
-}
-
 
 
 .messages {
