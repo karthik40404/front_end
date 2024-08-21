@@ -182,6 +182,9 @@ span {
     display: flex;
     align-items: center;
 }
+.bleft{
+    flex-wrap: wrap;
+}
 
 .b2 {
     border: 1px solid #eaeaea;
