@@ -1,0 +1,19 @@
+.cont{
+    display: flex;
+    /* align-items: center; */
+    /* object-fit: cover; */
+    /* justify-content: space-between; */
+    overflow-y: hidden;
+}
+img{
+    width:250px ;
+    height:250px ;
+    margin:20px ;
+    transition: .5s;
+}
+img:hover{
+    transform: scale(.5);
+    transform: translate(20px);
+    transform: rotate(90deg);
+    
+}
