@@ -156,8 +156,8 @@ input {
     display: flex;
     flex-wrap: wrap;
     gap:10px;
-    margin-top:15vh;
-    margin-bottom:15vh;
+    margin-top:15px;
+    margin-bottom:35px;
     justify-content: center;
    }
    .container2divs{
@@ -224,6 +224,75 @@ input {
     height:100%;
 }
 /* -------------------------------------------- */
+/* .container4{
+
+} */
+.cont41{
+    text-align: center;
+}
+
+.cont42 {
+    text-align: center;
+
+}
+.cont42 span{
+    margin-left: 40px;
+}
+
+span{
+    cursor: pointer;
+
+
+}
+span :hover{
+    color: red;
+    text-decoration: underline;
+
+
+}
+
+.cont43{
+    height:auto;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+}
+.cont431{
+    background-color: aquamarine;
+    height:60vh;
+    width: 22vw;
+    position: relative;
+}
+.cont43 img{
+    width:100%;
+    height: 100%;
+    
+}
+.cont43 button{
+    width:12vw;
+    height:40px;
+    position: absolute;
+    left:5vw;
+    top:50vh;
+    font-size: 13px;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.5s;
+}
+.c5but1:hover{
+    color: WHITE;
+    background-color:BLACK ;
+    border:1px solid rgb(0, 140, 255);
+}
+
+
+/* ---------------------------------------------------- */
 .footer{
     width: 100%;
     height: auto;
